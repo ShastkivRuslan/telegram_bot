@@ -27,9 +27,9 @@
         <url/>
     </scm>
     <properties>
-        <java.version>23</java.version>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <lombok.mapstruct.binding.version>0.2.0</lombok.mapstruct.binding.version>
     </properties>
     <dependencies>

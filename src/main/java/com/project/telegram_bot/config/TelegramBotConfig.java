@@ -1,6 +1,7 @@
 package com.project.telegram_bot.config;
 
 import com.project.telegram_bot.service.telegram.TelegramBotApi;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +17,7 @@ public class TelegramBotConfig {
     private final TelegramBotApi telegramBot;
 
     @Autowired
-    public TelegramBotConfig(TelegramBotApi telegramBot) { // явний конструктор
+    public TelegramBotConfig(TelegramBotApi telegramBot) {
         this.telegramBot = telegramBot;
     }
     @Bean
